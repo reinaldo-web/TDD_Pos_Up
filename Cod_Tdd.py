@@ -1,3 +1,5 @@
+import unittest
+
 def soma(a, b):
     """
         Funcao faz a soma de dois numeros.
@@ -9,10 +11,18 @@ def soma(a, b):
 
     return a + b
 
+class TestSoma(unittest.TestCase):
+
+    def test_soma_numeros_positivos(self):
+        resultado = soma(1, 2)
+
+        self.assertEqual(resultado, 3)
+
+    def test_soma_numeros_negativos(self):
+        resultado = soma(1, -1)
+        self.assertEqual(resultado, 0)
+
+
 if __name__ == '__main__':
 
-    resultado = soma(1, 2)
-    if resultado == 3:
-        print 'Soma 1 + 2 = 3 esta certo'
-    else:
-        print 'Soma nao funcionou'
+    unittest.main()
