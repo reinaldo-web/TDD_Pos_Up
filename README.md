@@ -2,6 +2,10 @@
 
 Nota_1
 
+A intenção era testar o BDD mas nao consegui fazer o behave funcionar no VsCode com Pythom 3.8
+
+Nota_1
+
 Tive problemas com as depencias do python-app.yml mas consegui ajustar e nesse Step passou
 
 Nota_2
