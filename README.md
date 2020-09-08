@@ -2,7 +2,7 @@
 
 Nota_1
 
-A intenção era testar o BDD mas nao consegui fazer o behave funcionar no VsCode com Pythom 3.8
+A intenção era testar o BDD mas nao consegui fazer o behave funcionar.
 
 Nota_1
 
